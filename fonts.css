@@ -18,103 +18,103 @@
 
 @font-face {
     font-family: 'HelvNeueLightforIBM';
-    src: url('../assets/fonts/IBM/Helvetica Neue/HelvNeueLightforIBM.otf') format("opentype");
+    src: url('fonts/Helvetica Neue/HelvNeueLightforIBM.otf') format("opentype");
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'HelvNeueLightItalicforIBMRegular';
-    src: url('../assets/fonts/IBM/Helvetica Neue/helvneuelightitalicforibm.eot');
-    src: url('../assets/fonts/IBM/Helvetica Neue/helvneuelightitalicforibm.eot') format('embedded-opentype'),
-         url('../assets/fonts/IBM/Helvetica Neue/helvneuelightitalicforibm.woff2') format('woff2'),
-         url('../assets/fonts/IBM/Helvetica Neue/helvneuelightitalicforibm.woff') format('woff'),
-         url('../assets/fonts/IBM/Helvetica Neue/helvneuelightitalicforibm.ttf') format('truetype'),
-         url('../assets/fonts/IBM/Helvetica Neue/helvneuelightitalicforibm.svg#HelvNeueLightItalicforIBMRegular') format('svg');
+    src: url('fonts/Helvetica Neue/helvneuelightitalicforibm.eot');
+    src: url('fonts/Helvetica Neue/helvneuelightitalicforibm.eot') format('embedded-opentype'),
+         url('fonts/Helvetica Neue/helvneuelightitalicforibm.woff2') format('woff2'),
+         url('fonts/Helvetica Neue/helvneuelightitalicforibm.woff') format('woff'),
+         url('fonts/Helvetica Neue/helvneuelightitalicforibm.ttf') format('truetype'),
+         url('fonts/Helvetica Neue/helvneuelightitalicforibm.svg#HelvNeueLightItalicforIBMRegular') format('svg');
 }
 @font-face {
     font-family: 'HelvNeueLightCondforIBM';
-    src: url('../assets/fonts/IBM/Helvetica Neue/HelvNeueLightCondforIBM.otf') format("opentype");
+    src: url('fonts/Helvetica Neue/HelvNeueLightCondforIBM.otf') format("opentype");
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'HelvNeueRomanforIBM';
-    src: url('../assets/fonts/IBM/Helvetica Neue/HelvNeueRomanforIBM.otf') format("opentype");
+    src: url('fonts/Helvetica Neue/HelvNeueRomanforIBM.otf') format("opentype");
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'HelvNeueRomanItalicforIBMRegular';
-    src: url('../assets/fonts/IBM/Helvetica Neue/helvneueromanitalicforibm.eot');
-    src: url('../assets/fonts/IBM/Helvetica Neue/helvneueromanitalicforibm.eot') format('embedded-opentype'),
-         url('../assets/fonts/IBM/Helvetica Neue/helvneueromanitalicforibm.woff2') format('woff2'),
-         url('../assets/fonts/IBM/Helvetica Neue/helvneueromanitalicforibm.woff') format('woff'),
-         url('../assets/fonts/IBM/Helvetica Neue/helvneueromanitalicforibm.ttf') format('truetype'),
-         url('../assets/fonts/IBM/Helvetica Neue/helvneueromanitalicforibm.svg#HelvNeueRomanItalicforIBMRegular') format('svg');
+    src: url('fonts/Helvetica Neue/helvneueromanitalicforibm.eot');
+    src: url('fonts/Helvetica Neue/helvneueromanitalicforibm.eot') format('embedded-opentype'),
+         url('fonts/Helvetica Neue/helvneueromanitalicforibm.woff2') format('woff2'),
+         url('fonts/Helvetica Neue/helvneueromanitalicforibm.woff') format('woff'),
+         url('fonts/Helvetica Neue/helvneueromanitalicforibm.ttf') format('truetype'),
+         url('fonts/Helvetica Neue/helvneueromanitalicforibm.svg#HelvNeueRomanItalicforIBMRegular') format('svg');
 }
 @font-face {
     font-family: 'HelvNeueMediumforIBM';
-    src: url('../assets/fonts/IBM/Helvetica Neue/HelvNeueMediumforIBM.otf') format("opentype");
+    src: url('fonts/Helvetica Neue/HelvNeueMediumforIBM.otf') format("opentype");
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'HelvNeueMediumItalicforIBMRegular';
-    src: url('../assets/fonts/IBM/Helvetica Neue/helvneuemediumitalicforibm.eot');
-    src: url('../assets/fonts/IBM/Helvetica Neue/helvneuemediumitalicforibm.eot') format('embedded-opentype'),
-         url('../assets/fonts/IBM/Helvetica Neue/helvneuemediumitalicforibm.woff2') format('woff2'),
-         url('../assets/fonts/IBM/Helvetica Neue/helvneuemediumitalicforibm.woff') format('woff'),
-         url('../assets/fonts/IBM/Helvetica Neue/helvneuemediumitalicforibm.ttf') format('truetype'),
-         url('../assets/fonts/IBM/Helvetica Neue/helvneuemediumitalicforibm.svg#HelvNeueMediumItalicforIBMRegular') format('svg');
+    src: url('fonts/Helvetica Neue/helvneuemediumitalicforibm.eot');
+    src: url('fonts/Helvetica Neue/helvneuemediumitalicforibm.eot') format('embedded-opentype'),
+         url('fonts/Helvetica Neue/helvneuemediumitalicforibm.woff2') format('woff2'),
+         url('fonts/Helvetica Neue/helvneuemediumitalicforibm.woff') format('woff'),
+         url('fonts/Helvetica Neue/helvneuemediumitalicforibm.ttf') format('truetype'),
+         url('fonts/Helvetica Neue/helvneuemediumitalicforibm.svg#HelvNeueMediumItalicforIBMRegular') format('svg');
 }
 @font-face {
     font-family: 'HelvNeueBoldforIBM';
-    src: url('../assets/fonts/IBM/Helvetica Neue/HelvNeueBoldforIBM.otf') format("opentype");
+    src: url('fonts/Helvetica Neue/HelvNeueBoldforIBM.otf') format("opentype");
     font-weight: bold;
     font-style: normal;
 }
  @font-face {
     font-family: 'HelvNeueBoldItalicforIBMRegular';
-    src: url('../assets/fonts/IBM/Helvetica Neue/helvneuebolditalicforibm.eot');
-    src: url('../assets/fonts/IBM/Helvetica Neue/helvneuebolditalicforibm.eot') format('embedded-opentype'),
-         url('../assets/fonts/IBM/Helvetica Neue/helvneuebolditalicforibm.woff2') format('woff2'),
-         url('../assets/fonts/IBM/Helvetica Neue/helvneuebolditalicforibm.woff') format('woff'),
-         url('../assets/fonts/IBM/Helvetica Neue/helvneuebolditalicforibm.ttf') format('truetype'),
-         url('../assets/fonts/IBM/Helvetica Neue/helvneuebolditalicforibm.svg#HelvNeueBoldItalicforIBMRegular') format('svg');
+    src: url('fonts/Helvetica Neue/helvneuebolditalicforibm.eot');
+    src: url('fonts/Helvetica Neue/helvneuebolditalicforibm.eot') format('embedded-opentype'),
+         url('fonts/Helvetica Neue/helvneuebolditalicforibm.woff2') format('woff2'),
+         url('fonts/Helvetica Neue/helvneuebolditalicforibm.woff') format('woff'),
+         url('fonts/Helvetica Neue/helvneuebolditalicforibm.ttf') format('truetype'),
+         url('fonts/Helvetica Neue/helvneuebolditalicforibm.svg#HelvNeueBoldItalicforIBMRegular') format('svg');
 }
 @font-face {
     font-family: 'HelvNeueCondforIBM';
-    src: url('../assets/fonts/IBM/Helvetica Neue/HelvNeueCondforIBM.otf') format("opentype");
+    src: url('fonts/Helvetica Neue/HelvNeueCondforIBM.otf') format("opentype");
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'LubalinBookforIBM';
-    src: url('../assets/fonts/IBM/Lubalin/LubalinBookForIBM.otf') format("opentype"),
-          url('../assets/fonts/IBM/Lubalin/LubalinBookForIBM.eot') format('embedded-opentype'),
-          url('../assets/fonts/IBM/Lubalin/LubalinBookForIBM.ttf') format('truetype'),
-          url('../assets/fonts/IBM/Lubalin/LubalinBookForIBM.woff') format('woff');
+    src: url('fonts/Lubalin/LubalinBookForIBM.otf') format("opentype"),
+          url('fonts/Lubalin/LubalinBookForIBM.eot') format('embedded-opentype'),
+          url('fonts/Lubalin/LubalinBookForIBM.ttf') format('truetype'),
+          url('fonts/Lubalin/LubalinBookForIBM.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'LubalinBookItalicforIBM';
-    src: url('../assets/fonts/IBM/Lubalin/LubalinBookItalicForIBM.otf') format("opentype");
+    src: url('fonts/Lubalin/LubalinBookItalicForIBM.otf') format("opentype");
     font-weight: normal;
     font-style: italic;
 }
 @font-face {
     font-family: 'LubalinDemiforIBM';
-    src: url('../assets/fonts/IBM/Lubalin/LubalinDemiForIBM.otf') format("opentype"),
-          url('../assets/fonts/IBM/Lubalin/LubalinDemiForIBM.eot') format('embedded-opentype'),
-          url('../assets/fonts/IBM/Lubalin/LubalinDemiForIBM.ttf') format('truetype'),
-          url('../assets/fonts/IBM/Lubalin/LubalinDemiForIBM.woff') format('woff');
+    src: url('fonts/Lubalin/LubalinDemiForIBM.otf') format("opentype"),
+          url('fonts/Lubalin/LubalinDemiForIBM.eot') format('embedded-opentype'),
+          url('fonts/Lubalin/LubalinDemiForIBM.ttf') format('truetype'),
+          url('fonts/Lubalin/LubalinDemiForIBM.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'LubalinDemiItalicforIBM';
-    src: url('../assets/fonts/IBM/Lubalin/LubalinDemiItalicForIBM.otf') format("opentype");
+    src: url('fonts/Lubalin/LubalinDemiItalicForIBM.otf') format("opentype");
     font-weight: normal;
     font-style: italic;
 }
