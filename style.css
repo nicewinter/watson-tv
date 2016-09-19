@@ -1,8 +1,30 @@
 body {
   color: #53585F;
+  margin: 0;
+  font-family: 'HelvNeueLightforIBM', Sans-Serif;
+}
+
+.tv-container {
+  width: 800px;
+  margin: auto;
+  padding: 20px;
 }
 
 .tv-header {
   background: #016131;
   color: white;
+}
+
+.tv-header h1 {
+  border-bottom: 2px solid white;
+  display: inline-block;
+}
+
+.tv-tv {
+  height: 400px;
+  background: #F2F2F2;
+}
+
+.tv-translation {
+
 }

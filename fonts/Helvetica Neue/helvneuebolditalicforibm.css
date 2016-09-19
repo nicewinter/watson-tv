@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'HelvNeueBoldItalicforIBMRegular';
+    src: url('helvneuebolditalicforibm.eot');
+    src: url('helvneuebolditalicforibm.eot') format('embedded-opentype'),
+         url('helvneuebolditalicforibm.woff2') format('woff2'),
+         url('helvneuebolditalicforibm.woff') format('woff'),
+         url('helvneuebolditalicforibm.ttf') format('truetype'),
+         url('helvneuebolditalicforibm.svg#HelvNeueBoldItalicforIBMRegular') format('svg');
+}
