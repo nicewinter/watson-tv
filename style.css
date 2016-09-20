@@ -34,3 +34,24 @@ body {
 .tv-translation {
 
 }
+
+.tv-url {
+  margin-bottom: 10px;
+}
+
+.tv-url .input-group {
+  width: calc(100% - 57px);
+  float: left;
+  border-radius: 0;
+}
+
+.tv-url .input-group input, .tv-url .input-group-addon, .btn {
+  border-radius: 0;
+}
+
+.tv-url .btn {
+  border-left: 0;
+}
+
+.tv-input {
+}
