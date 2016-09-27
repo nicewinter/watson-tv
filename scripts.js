@@ -3,8 +3,9 @@ var tv = {
     var url = $('#tv-url').val();
     var video = $('#tv-video');
     var stack = [];
+    var processing = false;
 
-    $.post('https://residency.mybluemix.net/url', {url: url}, function(response) {
+    $.post('https://residency.mybluemix.net/url', {url: url}, function() {
       'use strict';
 
       video.attr('src', url);
@@ -23,12 +24,13 @@ var tv = {
         console.log('delay: ' + delay);
 
         var interval = setInterval(function() {
-          console.log(split[count]);
+          console.log('    ' + split[count]);
           tv.text += ' ' + split[count];
           $('#tv-translation-text').html(tv.text);
           $("#tv-translation-text").animate({ scrollTop: $('#tv-translation-text')[0].scrollHeight }, 250);
 
           if (count++ === split.length - 1) {
+            processing = false;
             deferred.resolve();
             console.log('resolve');
             clearInterval(interval);
@@ -63,16 +65,21 @@ var tv = {
 
       var addToStack = function(r) {
         console.log('add to stack');
-        stack.push(function() {
-          asyncEvent(r);
-        });
+        stack.push(r);
       };
 
       var d = $.Deferred().resolve();
 
       var nextPromise = function() {
         console.log('next promise');
-        d = d.then(stack.shift());
+        d = d.then(function() {
+          console.log('then');
+          var r = stack.shift();
+          if (r) {
+            processing = true;
+            asyncEvent(r).then(nextPromise);
+          }
+        });
       };
 
       // poll translation API for latest translations
@@ -91,7 +98,8 @@ var tv = {
                 r.text = r.text.charAt(0).toUpperCase() + r.text.slice(1);
                 r.text = r.text.trim() + '.';
 
-                if (stack.length === 0) {
+                console.log(processing);
+                if (stack.length === 0 && !processing) {
                   console.log('start');
                   addToStack(r);
                   nextPromise();
