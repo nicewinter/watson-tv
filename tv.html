@@ -19,32 +19,35 @@
     <div class="tv-header">
       <div class="tv-container">
         <h1>Translate LIVE</h1>
-        <i class="fa fa-dot-circle-o fa-lg" aria-hidden="true"></i>
+        <i class="fa fa-dot-circle-o fa-2x" aria-hidden="true"></i>
       </div>
     </div>
     <div class="tv-tv">
       <div class="tv-container">
+        <video id="tv-video" type="video/mp4">
+          Your browser doesn't support HTML5 video tag.
+        </video>
+
         <div class="tv-url">
           <span class="input-group">
             <span class="input-group-addon">URL</span>
-            <input type="text" class="form-control" placeholder="http://youtube.com">
+            <input type="text" class="form-control" id="tv-url" placeholder=".mp4 URL, eg. TED Talk" value="https://download.ted.com/talks/NadiaLopez_2015P-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22">
           </span>
-          <button type="button" class="btn btn-default">Load</button>
-        </div>
 
-        <iframe width="760" height="430" src="http://www.ustream.tv/embed/6540154?html5ui" scrolling="no" allowfullscreen webkitallowfullscreen frameborder="0" style="border: 0 none transparent;"></iframe>
+          <button type="button" onclick="tv.sendUrl()" class="btn btn-default">Load</button>
+        </div>
       </div>
     </div>
     <div class="tv-translation">
-      <div class="tv-container">
-        <h2>Translation</h2>
-        <p>{{translation}}</p>
-      </div>
+      <p id="tv-translation-text"></p>
     </div>
   </body>
 
   <script src="https://use.fontawesome.com/bc434e1504.js"></script>
+  <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
 
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <!-- <script src="scripts.js"></script> -->
+  <script src="https://rawgit.com/annaet/watson-tv/master/scripts.js"></script>
 </html>

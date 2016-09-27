@@ -1,26 +1,37 @@
+html, body {
+  height: 100%;
+  background: #111;
+  color: #eee;
+}
+
 body {
-  color: #53585F;
+  /*color: #53585F;*/
   margin: 0;
   font-family: 'HelvNeueLightforIBM', Sans-Serif;
 }
 
 .tv-container {
-  width: 800px;
-  margin: auto;
   padding: 20px;
+  height: 100%;
 }
 
 .tv-header {
-  background: #016131;
+  /*background: #016131;*/
   color: white;
+  height: 120px;
+}
+
+.tv-header .tv-container {
+  display: flex;
+  align-items: center;
 }
 
 .tv-header h1 {
-  border-bottom: 2px solid white;
+  /*border-bottom: 2px solid white;*/
   display: inline-block;
-  margin: 0;
-  font-size: 1.8em;
-  font-family: 'LubalinBookforIBM', Sans-Serif;
+  margin: 15px 10px 0 0;
+  font-size: 60px;
+  font-family: 'LubalinDemiforIBM', Sans-Serif;
 }
 
 .tv-header .fa {
@@ -28,11 +39,25 @@ body {
 }
 
 .tv-tv {
-  background: #F2F2F2;
+  background: #222;
+  height: 580px;
+}
+
+#tv-video {
+  height: 500px;
+  width: 100%;
 }
 
 .tv-translation {
+  height: calc(100% - 710px);
+}
 
+#tv-translation-text {
+  height: 100%;
+  padding: 30px 100px;
+  overflow-y: hidden;
+  font-size: 60px;
+  line-height: 90px;
 }
 
 .tv-url {
@@ -47,6 +72,9 @@ body {
 
 .tv-url .input-group input, .tv-url .input-group-addon, .btn {
   border-radius: 0;
+  border-color: #666;
+  background: none;
+  color: #eee;
 }
 
 .tv-url .btn {
