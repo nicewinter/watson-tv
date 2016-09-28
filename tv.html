@@ -18,7 +18,11 @@
   <body>
     <div class="tv-header">
       <div class="tv-container">
-        <h1>Translate LIVE</h1>
+        <h1>
+          LIVE
+          <button class="btn tv-transcription-btn" onclick="tv.select('transcribe')">Transcription</button>
+          <button class="btn tv-translation-btn tv-disabled-btn" onclick="tv.select('translate')">Translation</button>
+        </h1>
         <i class="fa fa-dot-circle-o fa-2x" aria-hidden="true"></i>
       </div>
     </div>

@@ -5,7 +5,6 @@ html, body {
 }
 
 body {
-  /*color: #53585F;*/
   margin: 0;
   font-family: 'HelvNeueLightforIBM', Sans-Serif;
 }
@@ -16,9 +15,24 @@ body {
 }
 
 .tv-header {
-  /*background: #016131;*/
   color: white;
   height: 120px;
+}
+
+.tv-header .btn {
+  font-size: 24px;
+  margin-bottom: 10px;
+  background: #222;
+}
+
+.tv-header .btn:hover, .tv-header .btn:focus {
+  color: #ccc;
+  background: #333;
+  outline: none;
+}
+
+.tv-header .tv-disabled-btn {
+  color: #666;
 }
 
 .tv-header .tv-container {
@@ -27,7 +41,6 @@ body {
 }
 
 .tv-header h1 {
-  /*border-bottom: 2px solid white;*/
   display: inline-block;
   margin: 15px 10px 0 0;
   font-size: 60px;

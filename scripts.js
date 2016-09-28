@@ -1,11 +1,34 @@
 var tv = {
+  method: {
+    post: 'transcribe',
+    get: 'transcription'
+  },
+  select: function(method) {
+    'use strict';
+    if (method === 'transcribe') {
+      tv.method = {
+        post: 'transcribe',
+        get: 'transcription'
+      };
+      $('.tv-transcription-btn').removeClass('tv-disabled-btn');
+      $('.tv-translation-btn').addClass('tv-disabled-btn');
+    } else {
+      tv.method = {
+        post: 'translate',
+        get: 'translation'
+      };
+      $('.tv-transcription-btn').addClass('tv-disabled-btn');
+      $('.tv-translation-btn').removeClass('tv-disabled-btn');
+    }
+  },
   sendUrl: function() {
+    'use strict';
     var url = $('#tv-url').val();
     var video = $('#tv-video');
     var stack = [];
     var processing = false;
 
-    $.post('https://residency.mybluemix.net/url', {url: url}, function() {
+    $.post('https://residency.mybluemix.net/' + tv.method.post, {url: url}, function() {
       'use strict';
 
       video.attr('src', url);
@@ -82,15 +105,15 @@ var tv = {
         });
       };
 
-      // poll translation API for latest translations
+      // poll transcription API for latest responses
       setInterval(function() {
-        $.get('https://residency.mybluemix.net/translation', function(response) {
+        $.get('https://residency.mybluemix.net/' + tv.method.get, function(response) {
           if (response && response.length > 0) {
             video[0].play();
 
-            if (tv.translations !== response.length) {
-              for (var i = tv.translations; i < response.length; ++i) {
-                tv.translations++;
+            if (tv.responses !== response.length) {
+              for (var i = tv.responses; i < response.length; ++i) {
+                tv.responses++;
                 var r = response[i];
                 console.log(r);
                 r.end = r.end ? r.end : video[0].duration;
@@ -113,6 +136,6 @@ var tv = {
       }, 3000);
     });
   },
-  translations: 0,
+  responses: 0,
   text: ""
 };
