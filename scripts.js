@@ -28,7 +28,8 @@ var tv = {
     var stack = [];
     var processing = false;
 
-    $.post('https://residency.mybluemix.net/' + tv.method.post, {url: url}, function() {
+    //$.post('https://residency.mybluemix.net/' + tv.method.post, {url: url}, function() {
+    $.post('/' + tv.method.post, {url: url}, function() {
       'use strict';
 
       video.attr('src', url);
@@ -107,7 +108,8 @@ var tv = {
 
       // poll transcription API for latest responses
       setInterval(function() {
-        $.get('https://residency.mybluemix.net/' + tv.method.get, function(response) {
+        //$.get('https://residency.mybluemix.net/' + tv.method.get, function(response) {
+        $.get('/' + tv.method.get, function(response) {
           if (response && response.length > 0) {
             video[0].play();
 
