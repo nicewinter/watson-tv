@@ -90,31 +90,31 @@
 }
 @font-face {
     font-family: 'LubalinBookforIBM';
-    src: url('https://rawgit.com/annaet/watson-tv/master/fonts/Lubalin/LubalinBookforIBM.otf') format("opentype"),
-          url('https://rawgit.com/annaet/watson-tv/master/fonts/Lubalin/LubalinBookforIBM.eot') format('embedded-opentype'),
-          url('https://rawgit.com/annaet/watson-tv/master/fonts/Lubalin/LubalinBookforIBM.ttf') format('truetype'),
-          url('https://rawgit.com/annaet/watson-tv/master/fonts/Lubalin/LubalinBookforIBM.woff') format('woff');
+    src: url('https://rawgit.com/ibm-early-programs/watson-tv/master/fonts/Lubalin/LubalinBookforIBM.otf') format("opentype"),
+          url('https://rawgit.com/ibm-early-programs/watson-tv/master/fonts/Lubalin/LubalinBookforIBM.eot') format('embedded-opentype'),
+          url('https://rawgit.com/ibm-early-programs/watson-tv/master/fonts/Lubalin/LubalinBookforIBM.ttf') format('truetype'),
+          url('https://rawgit.com/ibm-early-programs/watson-tv/master/fonts/Lubalin/LubalinBookforIBM.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'LubalinBookItalicforIBM';
-    src: url('https://rawgit.com/annaet/watson-tv/master/fonts/Lubalin/LubalinBookItalicforIBM.otf') format("opentype");
+    src: url('https://rawgit.com/ibm-early-programs/watson-tv/master/fonts/Lubalin/LubalinBookItalicforIBM.otf') format("opentype");
     font-weight: normal;
     font-style: italic;
 }
 @font-face {
     font-family: 'LubalinDemiforIBM';
-    src: url('https://rawgit.com/annaet/watson-tv/master/fonts/Lubalin/LubalinDemiforIBM.otf') format("opentype"),
-          url('https://rawgit.com/annaet/watson-tv/master/fonts/Lubalin/LubalinDemiforIBM.eot') format('embedded-opentype'),
-          url('https://rawgit.com/annaet/watson-tv/master/fonts/Lubalin/LubalinDemiforIBM.ttf') format('truetype'),
-          url('https://rawgit.com/annaet/watson-tv/master/fonts/Lubalin/LubalinDemiforIBM.woff') format('woff');
+    src: url('https://rawgit.com/ibm-early-programs/watson-tv/master/fonts/Lubalin/LubalinDemiforIBM.otf') format("opentype"),
+          url('https://rawgit.com/ibm-early-programs/watson-tv/master/fonts/Lubalin/LubalinDemiforIBM.eot') format('embedded-opentype'),
+          url('https://rawgit.com/ibm-early-programs/watson-tv/master/fonts/Lubalin/LubalinDemiforIBM.ttf') format('truetype'),
+          url('https://rawgit.com/ibm-early-programs/watson-tv/master/fonts/Lubalin/LubalinDemiforIBM.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'LubalinDemiItalicforIBM';
-    src: url('https://rawgit.com/annaet/watson-tv/master/fonts/Lubalin/LubalinDemiItalicforIBM.otf') format("opentype");
+    src: url('https://rawgit.com/ibm-early-programs/watson-tv/master/fonts/Lubalin/LubalinDemiItalicforIBM.otf') format("opentype");
     font-weight: normal;
     font-style: italic;
 }
